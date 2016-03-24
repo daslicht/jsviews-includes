@@ -21,4 +21,4 @@ result:
 –––
 
 should be:
-![I am the included template](https://github.com/daslicht/jsviews-includes/blob/master/templates/test.html#L1)
+[I am the included template](https://github.com/daslicht/jsviews-includes/blob/master/templates/test.html#L1)
