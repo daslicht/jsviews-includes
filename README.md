@@ -16,3 +16,9 @@ result:
 result:
 
 ![](http://i.imgur.com/KFGlSLA.png)
+
+
+–––
+
+should be:
+![I am the included template](https://github.com/daslicht/jsviews-includes/blob/master/templates/test.html#L1)
