@@ -4,14 +4,25 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "browserify": "^13.0.0",
+    "browserify-middleware": "^7.0.0",
     "errorhandler": "^1.4.3",
     "express": "^4.13.4",
-    "jsrender": "^0.9.74"
+    "jquery": "^2.2.2",
+    "jsrender": "^0.9.74",
+    "jsviews": "^0.9.74"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      [
+        "jsrender/tmplify"
+      ]
+    ]
+  }
 }

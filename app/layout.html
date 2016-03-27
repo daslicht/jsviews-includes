@@ -1,0 +1,20 @@
+{{include tmpl='./app/_include/header.html' /}} <br>
+<hr>
+I am the Layout, next line is an include: <br>
+
+<!-- {{include tmpl='./app/home/index.html' /}} <br> -->
+
+{{:hello}}
+{{>template}} <br>
+
+<hr>
+{{include tmpl='./app/_include/footer.html' /}}
+
+<button id="render">More...</button>
+
+<div id="result"></div>
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+
+<script src="/bundle.js"></script>
+
+<!-- <script src="/context_bundle.js"></script> -->
